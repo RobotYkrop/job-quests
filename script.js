@@ -31,4 +31,4 @@ const uniqueStrings = (str) => {
     return [...new Set(newArr)].join()
 }
 
-console.log(uniqueStrings("кошка,собака,лошадь,корова,кошка"))
+console.log(uniqueStrings("кошка,собака,лошадь,корова,кошка")) // кошка,собака,лошадь,корова
